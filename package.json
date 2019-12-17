@@ -19,7 +19,8 @@
     "travis-deploy-once": "travis-deploy-once",
     "cm": "npx git-cz",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
